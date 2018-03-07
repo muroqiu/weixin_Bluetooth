@@ -1,0 +1,33 @@
+/**app.wxss**/
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  padding: 50rpx;
+  box-sizing: border-box;
+} 
+
+.page-body {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  overflow-x: hidden;
+}
+
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.kind-list-img {
+  width: 60rpx;
+  height: 60rpx;
+}

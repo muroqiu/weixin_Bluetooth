@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="block">
+    <button bindtap="openBluetooth">打开蓝牙</button>
+    <button bindtap="getConnectedBluetoothDevices">获取蓝牙设备</button>
+  </view>
+
+  <view class="block">
+    <button bindtap="startBluetoothDevicesDiscovery">搜索蓝牙设备</button>
+    <button bindtap="createBLEConnection">建立连接</button>
+  </view>
+  <view class="block">
+    <text>这里输入蓝牙地址</text>
+  </view>
+    <view class="block">
+    <button bindtap="writeBLECharacteristicValue">发送数据</button>
+    <button bindtap="readBLECharacteristicValue">读取数据</button>
+  </view>
+  <view class="block">
+    <text>{{log}}</text>
+  </view>
+</view>
