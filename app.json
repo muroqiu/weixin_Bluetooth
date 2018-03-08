@@ -6,7 +6,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "微信蓝牙通讯测试",
+    "navigationBarTitleText": "微信小程序蓝牙通讯测试",
     "navigationBarTextStyle": "black"
   }
 }
