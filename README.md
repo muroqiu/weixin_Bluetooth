@@ -1,5 +1,5 @@
 # weixin_Bluetooth
-微信蓝牙测试
+微信小程序蓝牙测试
 
 #### 简单介绍下流程：
 * 初始化小程序蓝牙模块 openBluetoothAdapter；
